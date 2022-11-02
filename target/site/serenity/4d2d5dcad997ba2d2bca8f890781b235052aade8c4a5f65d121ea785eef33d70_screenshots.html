@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 31-10-2022 15:03</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-11-2022 11:43</span>
     <br style="clear:left"/>
 </div>
 
@@ -169,9 +169,9 @@ To carry out transactions on the website
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Create user succesfully
+                                <span class="error-color">Create user succesfully
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -192,23 +192,69 @@ To carry out transactions on the website
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Web driver exception: The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:25114</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.WebDriverException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>com.mytest.utest.tasks.CreateUser.performAs(CreateUser.java:30)<br />com.mytest.utest.stepdefinitions.CreateUserSteps.createAUserInTheUtestPage(CreateUserSteps.java:32)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: java.net.ConnectException
+                    </h4>
+                    <div>
+                            <pre>Failed to connect to localhost/0:0:0:0:0:0:0:1:25114</pre>
+                        <pre>okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java :247)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java :165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java :257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java :135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java :114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java :42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java :93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java :93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java :126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java :200)<br />okhttp3.RealCall.execute(RealCall.java :77)<br />com.mytest.utest.tasks.CreateUser.performAs(CreateUser.java :30)<br />com.mytest.utest.stepdefinitions.CreateUserSteps.createAUserInTheUtestPage(CreateUserSteps.java :32)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" Example: {firstname=Leonel, lastname=Mira, email=leonelmira2323@hotmail.com, month=01, day=23, year=1991, city=Medellin, zip=05001, country=Colombia, pass=LeoElQueMira, confirmpass=LeoElQueMira}" width="1366"/>
-                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" Given I want to open the webpage" width="1366"/>
-                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" When Create a user in the Utest page
+                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" Example: {firstname=Capitan, lastname=America, email=capitan.america23test@gmail.com, month=April, day=15, year=1980, city=Medellin, zip=05001, country=Colombia, pass=jH1hdvB4972t, confirmpass=jH1hdvB4972t}" width="1366"/>
+                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" Given I want to open the webpage" width="1366"/>
+                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" When Create a user in the Utest page
 | firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
-| Leonel | Mira | leonelmira2323@hotmail.com | 01 | 23 | 1991 | Medellin | 05001 | Colombia | LeoElQueMira | LeoElQueMira |" width="1366"/>
-                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" Monik create user" width="1366"/>
-                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" Monik clicks on boton de ingreso" width="1366"/>
-                <img src="aa793ab8f265fbf38cfd83536e73ca2e00a041f883f17fdd26bf218fe7f20575.png" title=" Monik clicks on boton de ingreso (completed)" width="1366"/>
-                <img src="aa793ab8f265fbf38cfd83536e73ca2e00a041f883f17fdd26bf218fe7f20575.png" title=" Monik create user (completed)" width="1366"/>
-                <img src="ef9c3c983cdf1eec29ee61216fc26241e3ac20ddbe2682a24ed4a8e2c45e0cbb.png" title=" When Create a user in the Utest page
-| firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
-| Leonel | Mira | leonelmira2323@hotmail.com | 01 | 23 | 1991 | Medellin | 05001 | Colombia | LeoElQueMira | LeoElQueMira | (completed)" width="1366"/>
-                <img src="ef9c3c983cdf1eec29ee61216fc26241e3ac20ddbe2682a24ed4a8e2c45e0cbb.png" title=" Then I validate creation succesfully" width="1366"/>
-                <img src="ef9c3c983cdf1eec29ee61216fc26241e3ac20ddbe2682a24ed4a8e2c45e0cbb.png" title=" Then I validate creation succesfully (completed)" width="1366"/>
-                <img src="ef9c3c983cdf1eec29ee61216fc26241e3ac20ddbe2682a24ed4a8e2c45e0cbb.png" title=" Example: {firstname=Leonel, lastname=Mira, email=leonelmira2323@hotmail.com, month=01, day=23, year=1991, city=Medellin, zip=05001, country=Colombia, pass=LeoElQueMira, confirmpass=LeoElQueMira} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
+| Capitan | America | capitan.america23test@gmail.com | April | 15 | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t |" width="1366"/>
+                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New user create user" width="1366"/>
+                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New User clicks on Login button" width="1366"/>
+                <img src="bd69e88bb07729708ff248cd31d5012b14195867de1796957c64b928464287cf.png" title=" New User clicks on Login button (completed)" width="1366"/>
+                <img src="bd69e88bb07729708ff248cd31d5012b14195867de1796957c64b928464287cf.png" title=" New User enters 'Capitan' into Name field" width="1366"/>
+                <img src="7643c86e2c7153804dedbaeb177b492176129166979ba60e1b994178fcfc866c.png" title=" New User enters 'Capitan' into Name field (completed)" width="1366"/>
+                <img src="7643c86e2c7153804dedbaeb177b492176129166979ba60e1b994178fcfc866c.png" title=" New User enters 'America' into Last name field" width="1366"/>
+                <img src="ef05768a0cab7a6b718c7e9b7ee9b17f55970ac611d25ca09a1a329c509b59a2.png" title=" New User enters 'America' into Last name field (completed)" width="1366"/>
+                <img src="ef05768a0cab7a6b718c7e9b7ee9b17f55970ac611d25ca09a1a329c509b59a2.png" title=" New User enters 'capitan.america23test@gmail.com' into Email field" width="1366"/>
+                <img src="d3d302af0118f5b8927de39a7ddcf964d180b12942c7615399fc51f6e6c24f00.png" title=" New User enters 'capitan.america23test@gmail.com' into Email field (completed)" width="1366"/>
+                <img src="d3d302af0118f5b8927de39a7ddcf964d180b12942c7615399fc51f6e6c24f00.png" title=" New User clicks on Month field: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 
