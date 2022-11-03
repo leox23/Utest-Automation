@@ -1,11 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Create User" skipped="1" tests="2" time="12.21" timestamp="2022-11-02 11:43:46"><testcase name="Create user succesfully"><error message="The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:25114&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-NL8RATG', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException">The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:25114
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NL8RATG', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: RemoteWebDriver</error><system-err>The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:25114
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-NL8RATG', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: driver.version: RemoteWebDriver&#13;
-com.mytest.utest.tasks.CreateUser.performAs(CreateUser.java:30)&#13;
-com.mytest.utest.stepdefinitions.CreateUserSteps.createAUserInTheUtestPage(CreateUserSteps.java:32)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Create User" skipped="0" tests="2" time="73.03" timestamp="2022-11-03 11:12:08"><testcase name="Create user succesfully"/></testsuite>

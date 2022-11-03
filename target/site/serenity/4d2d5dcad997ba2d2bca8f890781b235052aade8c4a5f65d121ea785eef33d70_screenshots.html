@@ -132,7 +132,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 02-11-2022 11:43</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-11-2022 11:12</span>
     <br style="clear:left"/>
 </div>
 
@@ -169,9 +169,9 @@ To carry out transactions on the website
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
                             <span class="test-case-title">
-                                <span class="error-color">Create user succesfully
+                                <span class="success-color">Create user succesfully
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -192,69 +192,129 @@ To carry out transactions on the website
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
-            <div class="screenshotFailure panel panel-danger">
-
-    <div style="display:block">
-        <div class="table">
-            <div class="row">
-                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
-                    <span class="error-message error-message-title">Web driver exception: The following error occurred: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:25114</span>
-                </div>
-                <div class="col-sm-2">
-                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
-                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
-                </div>
-             </div>
-        </div>
-    <div>
-
-    <!-- Details Section -->
-    <div class="row stacktrace-details">
-      <div class="col">
-        <div class="collapse multi-collapse" id="stacktraceModal-overall">
-            <div class="card">
-                <div class="card-header">
-                    <h4>org.openqa.selenium.WebDriverException </h4>
-                </div>
-                <div class="card-body">
-                    <div>
-                        <pre>com.mytest.utest.tasks.CreateUser.performAs(CreateUser.java:30)<br />com.mytest.utest.stepdefinitions.CreateUserSteps.createAUserInTheUtestPage(CreateUserSteps.java:32)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
-                    </div>
-
-                    <h4>
-                        Caused by: java.net.ConnectException
-                    </h4>
-                    <div>
-                            <pre>Failed to connect to localhost/0:0:0:0:0:0:0:1:25114</pre>
-                        <pre>okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java :247)<br />okhttp3.internal.connection.RealConnection.connect(RealConnection.java :165)<br />okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java :257)<br />okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java :135)<br />okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java :114)<br />okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java :42)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java :93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java :93)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java :126)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :147)<br />okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java :121)<br />okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java :200)<br />okhttp3.RealCall.execute(RealCall.java :77)<br />com.mytest.utest.tasks.CreateUser.performAs(CreateUser.java :30)<br />com.mytest.utest.stepdefinitions.CreateUserSteps.createAUserInTheUtestPage(CreateUserSteps.java :32)<br />cucumber.runner.Runner.runPickle(Runner.java :80)<br /></pre>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-                <div class="panel-body">
-                    <a href="#" target="_blank" class="btn btn-info">HTML Source</a>
-                </div>
-            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" Example: {firstname=Capitan, lastname=America, email=capitan.america23test@gmail.com, month=April, day=15, year=1980, city=Medellin, zip=05001, country=Colombia, pass=jH1hdvB4972t, confirmpass=jH1hdvB4972t}" width="1366"/>
-                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" Given I want to open the webpage" width="1366"/>
-                <img src="bfce23b197cba405acab9503ef1a7d931d8bf1ed2969a0da658b07ccf27803eb.png" title=" When Create a user in the Utest page
+                <img src="7bfc6969fd2b30e4a9eeac0a2486918f05382305c46ec6a68c3110c1f451496b.png" title=" Example: {firstname=Capitan, lastname=America, email=capitan.america23test11@gmail.com, month=April, day=15, year=1980, city=Medellin, zip=05001, country=Colombia, pass=jH1hdvB4972t, confirmpass=jH1hdvB4972t}" width="1366"/>
+                <img src="7bfc6969fd2b30e4a9eeac0a2486918f05382305c46ec6a68c3110c1f451496b.png" title=" Given I want to open the webpage" width="1366"/>
+                <img src="7bfc6969fd2b30e4a9eeac0a2486918f05382305c46ec6a68c3110c1f451496b.png" title=" When Create a user in the Utest page
 | firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
-| Capitan | America | capitan.america23test@gmail.com | April | 15 | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t |" width="1366"/>
+| Capitan | America | capitan.america23test11@gmail.com | April | 15 | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t |" width="1366"/>
                 <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New user create user" width="1366"/>
                 <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New User clicks on Login button" width="1366"/>
-                <img src="bd69e88bb07729708ff248cd31d5012b14195867de1796957c64b928464287cf.png" title=" New User clicks on Login button (completed)" width="1366"/>
-                <img src="bd69e88bb07729708ff248cd31d5012b14195867de1796957c64b928464287cf.png" title=" New User enters 'Capitan' into Name field" width="1366"/>
+                <img src="fac15c66c16dc997a7ea5fb58fc5c226db6275f2ac7d2463a18cad84c3afd852.png" title=" New User clicks on Login button (completed)" width="1366"/>
+                <img src="fac15c66c16dc997a7ea5fb58fc5c226db6275f2ac7d2463a18cad84c3afd852.png" title=" New User enters 'Capitan' into Name field" width="1366"/>
                 <img src="7643c86e2c7153804dedbaeb177b492176129166979ba60e1b994178fcfc866c.png" title=" New User enters 'Capitan' into Name field (completed)" width="1366"/>
                 <img src="7643c86e2c7153804dedbaeb177b492176129166979ba60e1b994178fcfc866c.png" title=" New User enters 'America' into Last name field" width="1366"/>
                 <img src="ef05768a0cab7a6b718c7e9b7ee9b17f55970ac611d25ca09a1a329c509b59a2.png" title=" New User enters 'America' into Last name field (completed)" width="1366"/>
-                <img src="ef05768a0cab7a6b718c7e9b7ee9b17f55970ac611d25ca09a1a329c509b59a2.png" title=" New User enters 'capitan.america23test@gmail.com' into Email field" width="1366"/>
-                <img src="d3d302af0118f5b8927de39a7ddcf964d180b12942c7615399fc51f6e6c24f00.png" title=" New User enters 'capitan.america23test@gmail.com' into Email field (completed)" width="1366"/>
-                <img src="d3d302af0118f5b8927de39a7ddcf964d180b12942c7615399fc51f6e6c24f00.png" title=" New User clicks on Month field: <span class='error-color'>ERROR</span>" width="1366"/>
+                <img src="ef05768a0cab7a6b718c7e9b7ee9b17f55970ac611d25ca09a1a329c509b59a2.png" title=" New User enters 'capitan.america23test11@gmail.com' into Email field" width="1366"/>
+                <img src="d57712a1d50852dcdbcad1b17ba98c470f8f51228451d96d5fbf0237d349375f.png" title=" New User enters 'capitan.america23test11@gmail.com' into Email field (completed)" width="1366"/>
+                <img src="d57712a1d50852dcdbcad1b17ba98c470f8f51228451d96d5fbf0237d349375f.png" title=" New User clicks on Month field" width="1366"/>
+                <img src="b4f989571635f2a5e64e5ae3788464d8666d5dbf937e647b36c0d3cb14e1189f.png" title=" New User clicks on Month field (completed)" width="1366"/>
+                <img src="b4f989571635f2a5e64e5ae3788464d8666d5dbf937e647b36c0d3cb14e1189f.png" title=" New User clicks on Required month" width="1366"/>
+                <img src="27b9c3ddfb04da665e33aa209bf841a59da8a76dc69f35e315a952e0f9a548e1.png" title=" New User clicks on Required month (completed)" width="1366"/>
+                <img src="27b9c3ddfb04da665e33aa209bf841a59da8a76dc69f35e315a952e0f9a548e1.png" title=" New User clicks on Day field" width="1366"/>
+                <img src="232432e87d291c99805e18918a6e2f12a28fea2120697c75f62da9fc856b6f8d.png" title=" New User clicks on Day field (completed)" width="1366"/>
+                <img src="232432e87d291c99805e18918a6e2f12a28fea2120697c75f62da9fc856b6f8d.png" title=" New User clicks on Required day" width="1366"/>
+                <img src="a4427c529daff764c89ce8d9fa89c74555ae87d9afb70ceb6a43a00b54b99151.png" title=" New User clicks on Required day (completed)" width="1366"/>
+                <img src="a4427c529daff764c89ce8d9fa89c74555ae87d9afb70ceb6a43a00b54b99151.png" title=" New User clicks on Year field" width="1366"/>
+                <img src="740c469aeb1db80badeaa00d493e59babf4f9e17a7ab1628b85b0ae47e5ea432.png" title=" New User clicks on Year field (completed)" width="1366"/>
+                <img src="740c469aeb1db80badeaa00d493e59babf4f9e17a7ab1628b85b0ae47e5ea432.png" title=" New User clicks on Required year" width="1366"/>
+                <img src="711cb35c8660b27c333447227609175c7f9932c58535b1f0ea6e50f8677240c3.png" title=" New User clicks on Required year (completed)" width="1366"/>
+                <img src="711cb35c8660b27c333447227609175c7f9932c58535b1f0ea6e50f8677240c3.png" title=" New User clicks on Next: Location button" width="1366"/>
+                <img src="09a95992461b44758070ffb7d4355508f040c777d9071d977702084b3ec6a806.png" title=" New User clicks on Next: Location button (completed)" width="1366"/>
+                <img src="b9e2c1ff56ee0e8963fbd3fa43c246a567b9e64e0a94a080f694b5a21c3aa0fc.png" title=" New User enters 'Medellin' into City field" width="1366"/>
+                <img src="85cfdaf656b75d24ffad5c015d794ba45ab6265d168ea845eb5ba0ebb8d34ea7.png" title=" New User enters 'Medellin' into City field (completed)" width="1366"/>
+                <img src="85cfdaf656b75d24ffad5c015d794ba45ab6265d168ea845eb5ba0ebb8d34ea7.png" title=" New User enters ARROW_DOWN into City field" width="1366"/>
+                <img src="ddd9db662d832724c302aabc1253eccf16cedee1e4225ac521c293bfb0b0a7fc.png" title=" New User enters ARROW_DOWN into City field (completed)" width="1366"/>
+                <img src="ddd9db662d832724c302aabc1253eccf16cedee1e4225ac521c293bfb0b0a7fc.png" title=" New User enters ENTER into City field" width="1366"/>
+                <img src="b925fe521f26fca9badace8e153cef62e3f15d3fe26e794dac12b6f4277db091.png" title=" New User enters ENTER into City field (completed)" width="1366"/>
+                <img src="b925fe521f26fca9badace8e153cef62e3f15d3fe26e794dac12b6f4277db091.png" title=" New User enters '05001' into Zip or Postal Code field" width="1366"/>
+                <img src="6e86b1c45d12f1b5c5e739137d86ba45a45dbd14785fd9fda8431c72db6ba428.png" title=" New User enters '05001' into Zip or Postal Code field (completed)" width="1366"/>
+                <img src="6e86b1c45d12f1b5c5e739137d86ba45a45dbd14785fd9fda8431c72db6ba428.png" title=" New User clicks on Next: Devices button" width="1366"/>
+                <img src="d8f6311b0627e400bb6138081cbc9ce0eaa335956729aadd74887ff7515ac069.png" title=" New User clicks on Next: Devices button (completed)" width="1366"/>
+                <img src="0ee0292008d1fee7e0d6b5d10e47bbf0efb2f2ab3172e3cdc8fc4f611ec176bf.png" title=" New User clicks on Next: Last Step button" width="1366"/>
+                <img src="2d3a70e5b2414e7939d1d8ffaf80ffaca2fdb118972f258fed6a354dd4bce7dc.png" title=" New User clicks on Next: Last Step button (completed)" width="1366"/>
+                <img src="352ba011e944457a1c75c1bfa089dfc079d6fd8377f2cfcb917523c4b18c9f1e.png" title=" New User enters 'jH1hdvB4972t' into Password field" width="1366"/>
+                <img src="6ac022ed9d95ae86e1baf1952b654a3054bbd609d24ee2eaf49d5f6213e6d6c3.png" title=" New User enters 'jH1hdvB4972t' into Password field (completed)" width="1366"/>
+                <img src="6ac022ed9d95ae86e1baf1952b654a3054bbd609d24ee2eaf49d5f6213e6d6c3.png" title=" New User enters 'jH1hdvB4972t' into Password confirmation field" width="1366"/>
+                <img src="f02b3f37a6bf95e6ea4a84d366f259faba5df2577889a7e5179983e5797e85e0.png" title=" New User enters 'jH1hdvB4972t' into Password confirmation field (completed)" width="1366"/>
+                <img src="f02b3f37a6bf95e6ea4a84d366f259faba5df2577889a7e5179983e5797e85e0.png" title=" New User clicks on Stay informed! checkbox" width="1366"/>
+                <img src="bff0bf37a0362eebda172964a9f736a7ec3d48892217dccc752ff8309a61315f.png" title=" New User clicks on Stay informed! checkbox (completed)" width="1366"/>
+                <img src="bff0bf37a0362eebda172964a9f736a7ec3d48892217dccc752ff8309a61315f.png" title=" New User clicks on Terms of Use checkbox" width="1366"/>
+                <img src="64a844ca309908351d7a6a7877eba004c7a71768074b82665ae1ca50a2f0e448.png" title=" New User clicks on Terms of Use checkbox (completed)" width="1366"/>
+                <img src="64a844ca309908351d7a6a7877eba004c7a71768074b82665ae1ca50a2f0e448.png" title=" New User clicks on Privact &amp; Security Policy checkbox" width="1366"/>
+                <img src="0538955f8da4c435098a734e8b8c2a141612151eb10d02d356c2e08572c9a720.png" title=" New User clicks on Privact &amp; Security Policy checkbox (completed)" width="1366"/>
+                <img src="0538955f8da4c435098a734e8b8c2a141612151eb10d02d356c2e08572c9a720.png" title=" New User clicks on Last step button" width="1366"/>
+                <img src="dc9297fbcf01c13327840b388196e05f58251e9de732291fe898673a973b3a15.png" title=" New User clicks on Last step button (completed)" width="1366"/>
+                <img src="dc9297fbcf01c13327840b388196e05f58251e9de732291fe898673a973b3a15.png" title=" New user create user (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" When Create a user in the Utest page
+| firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
+| Capitan | America | capitan.america23test11@gmail.com | April | 15 | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t | (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then I validate creation succesfully" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then validate mensaje" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then validate mensaje (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then I validate creation succesfully (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Example: {firstname=Capitan, lastname=America, email=capitan.america23test11@gmail.com, month=April, day=15, year=1980, city=Medellin, zip=05001, country=Colombia, pass=jH1hdvB4972t, confirmpass=jH1hdvB4972t} (completed)" width="1366"/>
+                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" Example: {firstname=Iron, lastname=Man, email=iron.man23test11@gmail.com, month=July, day=24, year=1998, city=Medellin, zip=05001, country=Colombia, pass=B4972tjH1hdv, confirmpass=B4972tjH1hdv}" width="1366"/>
+                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" Given I want to open the webpage" width="1366"/>
+                <img src="dcdcd560bdb52662de7b8942b3a5476050c3c1c2f2eb7c5dd6dfc4ea6df205d1.png" title=" When Create a user in the Utest page
+| firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
+| Iron | Man | iron.man23test11@gmail.com | July | 24 | 1998 | Medellin | 05001 | Colombia | B4972tjH1hdv | B4972tjH1hdv |" width="1366"/>
+                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New user create user" width="1366"/>
+                <img src="ebc8dcbaf613f36dfd9cf77216aeb35a3fac02246b2204898c692e4fc8b1806b.png" title=" New User clicks on Login button" width="1366"/>
+                <img src="4f7f652b9acd63bfbc268ced8659b1d33c86e2d7473785d6eb9ee216949b14ab.png" title=" New User clicks on Login button (completed)" width="1366"/>
+                <img src="4f7f652b9acd63bfbc268ced8659b1d33c86e2d7473785d6eb9ee216949b14ab.png" title=" New User enters 'Iron' into Name field" width="1366"/>
+                <img src="b79ad60a47e69773ecb9e23e25417fb78713fbcd9a2509394c70a80af1e7a2fb.png" title=" New User enters 'Iron' into Name field (completed)" width="1366"/>
+                <img src="b79ad60a47e69773ecb9e23e25417fb78713fbcd9a2509394c70a80af1e7a2fb.png" title=" New User enters 'Man' into Last name field" width="1366"/>
+                <img src="439a13f8e5a907732fa5c569e749f45de25c12511363f6bfc0aa222d457a3cdb.png" title=" New User enters 'Man' into Last name field (completed)" width="1366"/>
+                <img src="439a13f8e5a907732fa5c569e749f45de25c12511363f6bfc0aa222d457a3cdb.png" title=" New User enters 'iron.man23test11@gmail.com' into Email field" width="1366"/>
+                <img src="cb1702bda93ecec1307030b3f37efcc8fc693a8195e57d601c71ab2a4319ccc9.png" title=" New User enters 'iron.man23test11@gmail.com' into Email field (completed)" width="1366"/>
+                <img src="cb1702bda93ecec1307030b3f37efcc8fc693a8195e57d601c71ab2a4319ccc9.png" title=" New User clicks on Month field" width="1366"/>
+                <img src="0d65a1409e788700dc1e52c8f90822b815fe9500b52d7b4f45db3076d8ed4ef2.png" title=" New User clicks on Month field (completed)" width="1366"/>
+                <img src="0d65a1409e788700dc1e52c8f90822b815fe9500b52d7b4f45db3076d8ed4ef2.png" title=" New User clicks on Required month" width="1366"/>
+                <img src="d71106fd898a07d5f676bf9d0fe21903e43240b7b049e5795e8ccf2131767541.png" title=" New User clicks on Required month (completed)" width="1366"/>
+                <img src="d71106fd898a07d5f676bf9d0fe21903e43240b7b049e5795e8ccf2131767541.png" title=" New User clicks on Day field" width="1366"/>
+                <img src="e0b9fcd9eada9196a4cc1915ca7a3abbeb235bfea3d70074d8c1136e7d8686ba.png" title=" New User clicks on Day field (completed)" width="1366"/>
+                <img src="e0b9fcd9eada9196a4cc1915ca7a3abbeb235bfea3d70074d8c1136e7d8686ba.png" title=" New User clicks on Required day" width="1366"/>
+                <img src="ce0c8e714e6ea698f263babb8ab6ab01fb3b3a337c3385b0d67ca7ed542f283e.png" title=" New User clicks on Required day (completed)" width="1366"/>
+                <img src="ce0c8e714e6ea698f263babb8ab6ab01fb3b3a337c3385b0d67ca7ed542f283e.png" title=" New User clicks on Year field" width="1366"/>
+                <img src="a2352631237b9da7b7ff70f99a0872efca898eb2eef5713fcb17c1715ba95925.png" title=" New User clicks on Year field (completed)" width="1366"/>
+                <img src="a2352631237b9da7b7ff70f99a0872efca898eb2eef5713fcb17c1715ba95925.png" title=" New User clicks on Required year" width="1366"/>
+                <img src="b196c332f88cef039f57604fd8cea038c583135050e611370cb1965ac2e760dd.png" title=" New User clicks on Required year (completed)" width="1366"/>
+                <img src="b196c332f88cef039f57604fd8cea038c583135050e611370cb1965ac2e760dd.png" title=" New User clicks on Next: Location button" width="1366"/>
+                <img src="09a95992461b44758070ffb7d4355508f040c777d9071d977702084b3ec6a806.png" title=" New User clicks on Next: Location button (completed)" width="1366"/>
+                <img src="dc7749a69e04fb74a723e1c0e04a12a3d62227f8ca8d8b57cba5ad2ad19f0f0a.png" title=" New User enters 'Medellin' into City field" width="1366"/>
+                <img src="85cfdaf656b75d24ffad5c015d794ba45ab6265d168ea845eb5ba0ebb8d34ea7.png" title=" New User enters 'Medellin' into City field (completed)" width="1366"/>
+                <img src="85cfdaf656b75d24ffad5c015d794ba45ab6265d168ea845eb5ba0ebb8d34ea7.png" title=" New User enters ARROW_DOWN into City field" width="1366"/>
+                <img src="ddd9db662d832724c302aabc1253eccf16cedee1e4225ac521c293bfb0b0a7fc.png" title=" New User enters ARROW_DOWN into City field (completed)" width="1366"/>
+                <img src="ddd9db662d832724c302aabc1253eccf16cedee1e4225ac521c293bfb0b0a7fc.png" title=" New User enters ENTER into City field" width="1366"/>
+                <img src="b925fe521f26fca9badace8e153cef62e3f15d3fe26e794dac12b6f4277db091.png" title=" New User enters ENTER into City field (completed)" width="1366"/>
+                <img src="b925fe521f26fca9badace8e153cef62e3f15d3fe26e794dac12b6f4277db091.png" title=" New User enters '05001' into Zip or Postal Code field" width="1366"/>
+                <img src="6e86b1c45d12f1b5c5e739137d86ba45a45dbd14785fd9fda8431c72db6ba428.png" title=" New User enters '05001' into Zip or Postal Code field (completed)" width="1366"/>
+                <img src="6e86b1c45d12f1b5c5e739137d86ba45a45dbd14785fd9fda8431c72db6ba428.png" title=" New User clicks on Next: Devices button" width="1366"/>
+                <img src="f84fecc7b09867a0996ecee07989192f45b11d1ab6c7bf235059d861c94c66f6.png" title=" New User clicks on Next: Devices button (completed)" width="1366"/>
+                <img src="0ee0292008d1fee7e0d6b5d10e47bbf0efb2f2ab3172e3cdc8fc4f611ec176bf.png" title=" New User clicks on Next: Last Step button" width="1366"/>
+                <img src="352ba011e944457a1c75c1bfa089dfc079d6fd8377f2cfcb917523c4b18c9f1e.png" title=" New User clicks on Next: Last Step button (completed)" width="1366"/>
+                <img src="352ba011e944457a1c75c1bfa089dfc079d6fd8377f2cfcb917523c4b18c9f1e.png" title=" New User enters 'B4972tjH1hdv' into Password field" width="1366"/>
+                <img src="7db8f22f078425d690c4676639f2885838ed523249cebadc88f2fbd92442d987.png" title=" New User enters 'B4972tjH1hdv' into Password field (completed)" width="1366"/>
+                <img src="7db8f22f078425d690c4676639f2885838ed523249cebadc88f2fbd92442d987.png" title=" New User enters 'B4972tjH1hdv' into Password confirmation field" width="1366"/>
+                <img src="f02b3f37a6bf95e6ea4a84d366f259faba5df2577889a7e5179983e5797e85e0.png" title=" New User enters 'B4972tjH1hdv' into Password confirmation field (completed)" width="1366"/>
+                <img src="f02b3f37a6bf95e6ea4a84d366f259faba5df2577889a7e5179983e5797e85e0.png" title=" New User clicks on Stay informed! checkbox" width="1366"/>
+                <img src="bff0bf37a0362eebda172964a9f736a7ec3d48892217dccc752ff8309a61315f.png" title=" New User clicks on Stay informed! checkbox (completed)" width="1366"/>
+                <img src="bff0bf37a0362eebda172964a9f736a7ec3d48892217dccc752ff8309a61315f.png" title=" New User clicks on Terms of Use checkbox" width="1366"/>
+                <img src="64a844ca309908351d7a6a7877eba004c7a71768074b82665ae1ca50a2f0e448.png" title=" New User clicks on Terms of Use checkbox (completed)" width="1366"/>
+                <img src="64a844ca309908351d7a6a7877eba004c7a71768074b82665ae1ca50a2f0e448.png" title=" New User clicks on Privact &amp; Security Policy checkbox" width="1366"/>
+                <img src="0538955f8da4c435098a734e8b8c2a141612151eb10d02d356c2e08572c9a720.png" title=" New User clicks on Privact &amp; Security Policy checkbox (completed)" width="1366"/>
+                <img src="0538955f8da4c435098a734e8b8c2a141612151eb10d02d356c2e08572c9a720.png" title=" New User clicks on Last step button" width="1366"/>
+                <img src="a73c4ca76036b42766f5e3bf2af3fc9f6c1347428ce42ac404944c44b367112a.png" title=" New User clicks on Last step button (completed)" width="1366"/>
+                <img src="a73c4ca76036b42766f5e3bf2af3fc9f6c1347428ce42ac404944c44b367112a.png" title=" New user create user (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" When Create a user in the Utest page
+| firstname | lastname | email | month | day | year | city | zip | country | pass | confirmpass |
+| Iron | Man | iron.man23test11@gmail.com | July | 24 | 1998 | Medellin | 05001 | Colombia | B4972tjH1hdv | B4972tjH1hdv | (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then I validate creation succesfully" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then validate mensaje" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Then I validate creation succesfully (completed)" width="1366"/>
+                <img src="a62c4f90fe6e159778b421d8f4a5360a63b1fdd46ebf69b13ffb6a1a0d76aef8.png" title=" Example: {firstname=Iron, lastname=Man, email=iron.man23test11@gmail.com, month=July, day=24, year=1998, city=Medellin, zip=05001, country=Colombia, pass=B4972tjH1hdv, confirmpass=B4972tjH1hdv} (completed): <span class='success-color'>SUCCESS</span>" width="1366"/>
             </div>
         </div>
 
