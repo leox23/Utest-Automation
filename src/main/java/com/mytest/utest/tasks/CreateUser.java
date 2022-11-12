@@ -7,6 +7,7 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SendKeys;
 import net.serenitybdd.screenplay.waits.WaitUntil;
+import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.Keys;
 import java.util.List;
 
@@ -25,6 +26,7 @@ public class CreateUser implements Task {
         this.data = data;
     }
 
+    @Step("Register user, find product, purchase product")
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(

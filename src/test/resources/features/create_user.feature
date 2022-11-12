@@ -1,4 +1,4 @@
-Feature: Create User
+Feature: Create Users
   Me as automator
   I need to create a user in Utest.com
   To carry out transactions on the website

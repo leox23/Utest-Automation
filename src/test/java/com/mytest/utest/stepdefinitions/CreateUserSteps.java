@@ -25,15 +25,12 @@ public class CreateUserSteps {
         OnStage.theActorInTheSpotlight().can(BrowseTheWeb.with(MyDriverWeb.web().inThePage("https://utest.com/")));
     }
 
-
     @When("^Create a user in the Utest page$")
     public void createAUserInTheUtestPage(List<DataUser> data) throws InterruptedException {
         Thread.sleep(2000);
         theActorInTheSpotlight().attemptsTo(CreateUser.create(data));
         Thread.sleep(5000);
     }
-
-
 
     @Then("^I validate creation succesfully$")
     public void iValidateCreationSuccesfully() {
