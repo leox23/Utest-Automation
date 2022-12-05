@@ -12,5 +12,5 @@ Feature: Create Users
 
     Examples:
       | firstname | lastname | email                           | month | day | year | city     | zip   | country  | pass         | confirmpass  |
-      | Capitan   | America  | capitan.america23test11@gmail.com | April    | 15  | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t |
-      | Iron      | Man      | iron.man23test11@gmail.com        | July    | 24  | 1998 | Medellin | 05001 | Colombia | B4972tjH1hdv | B4972tjH1hdv |
+      | Capitan   | America  | capitan.americda23test11@gmail.com | December    | 15  | 1980 | Medellin | 05001 | Colombia | jH1hdvB4972t | jH1hdvB4972t |
+      | Iron      | Man      | iron.man23sdat11@gmail.com        | July    | 24  | 1998 | Medellin | 05001 | Colombia | B4972tjH1hdv | B4972tjH1hdv |

@@ -10,5 +10,4 @@ public class Step4 {
     public static final Target CHK_TERMS = Target.the("Terms of Use checkbox").located(By.xpath("//span[@class='checkmark signup-consent__checkbox error'][1]"));
     public static final Target CHK_PRIVACY = Target.the("Privact & Security Policy checkbox").located(By.xpath("//span[@class='checkmark signup-consent__checkbox error']"));
     public static final Target BTN_FINISH = Target.the("Last step button").located(By.xpath("//a[@class='btn btn-blue']"));
-
 }
