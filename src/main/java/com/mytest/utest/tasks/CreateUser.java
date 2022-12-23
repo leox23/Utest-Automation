@@ -50,8 +50,7 @@ public class CreateUser implements Task {
                 // Step2
                 WaitUntil.the(TXT_CITY, isVisible()).forNoMoreThan(15).seconds(),
                 Enter.theValue(data.get(0).getCity()).into(TXT_CITY),
-                SendKeys.of(Keys.ARROW_DOWN).into(TXT_CITY),
-                SendKeys.of(Keys.ENTER).into(TXT_CITY),
+                SendKeys.of(Keys.ARROW_DOWN, Keys.ENTER).into(TXT_CITY),
                 Enter.theValue(data.get(0).getZip()).into(TXT_ZIP),
                 Click.on(BTN_CITY),
 
